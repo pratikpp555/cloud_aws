@@ -31,3 +31,8 @@
 * log store
 * log search(query)
 * can make Dashboards
+
+## Status check
+* It check your instance and network working
+* If the internet of aws get failure then it is informed in instance status check 
+* We can create alarm for it  
