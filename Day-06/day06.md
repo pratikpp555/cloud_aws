@@ -37,6 +37,14 @@
 * If the internet of aws get failure then it is informed in instance status check 
 * We can create alarm for it  
 
+## User data
+* For linux user data will  be set of linux or shell script
+* For windows we have to pass windows cmd 
+* User data is used for automation means commands will pass when instance created it will run commands too.
+* In user data commands execute as root user 
+* We can pass commands or shell scripts too
+* We cant use commands which needs feedback but we can pass it directly with feedback eg yum update -y
+
 ## Lambda
 * exports.handler = async (event, context) =>{ }  
 this lambda main function which it used to execute 
