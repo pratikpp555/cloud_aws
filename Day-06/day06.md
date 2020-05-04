@@ -36,3 +36,11 @@
 * It check your instance and network working
 * If the internet of aws get failure then it is informed in instance status check 
 * We can create alarm for it  
+
+## Lambda
+* exports.handler = async (event, context) =>{ }  
+this lambda main function which it used to execute 
+* Uses
+  * event driven automation
+  * lamda as api 
+
